@@ -1,0 +1,28 @@
+const SETTINGS = {
+  YEAR: 2026,
+  ROOMS: 4,
+  BLOCKS_PER_ROOM: 2,
+  SEATS_PER_BLOCK: 3
+};
+
+const MONTHS = [
+  "Січень","Лютий","Березень","Квітень","Травень","Червень",
+  "Липень","Серпень","Вересень","Жовтень","Листопад","Грудень"
+];
+
+const DAYS = [
+  "Пн","Вт","Ср","Чт","Пт","Сб","Нд"
+];
+
+function buildOfficePlanner(){
+  Builder.build();
+}
+function buildRooms() {
+  Rooms.buildRooms();
+}
+function buildDropdowns() {
+  Validation.buildDropdowns();
+}
+function applyStyles() {
+  Styles.apply();
+}
